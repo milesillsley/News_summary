@@ -1,5 +1,10 @@
 ITs theNEWS
 
+To run the server:
+Install `npm install http-server`
+http-server
+
+(You may need to remove the node modules from the .gitignore)
 
 google searches:
 
