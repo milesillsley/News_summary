@@ -6,7 +6,7 @@
   HeadlinesDisplay.prototype.displayPage = function() {
     var display = "<ul>";
     this._headlines.forEach(function(headline) {
-      display += ("<li><div>" + headline.webTitle + "</div></li>");
+      display += ("<li><div>" + headline.webTitle + "<br>" + "<a href= >" + headline.webUrl + "</a>" + "</div></li><br>");
     });
     return (display + "</ul>");
   };
