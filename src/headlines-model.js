@@ -1,5 +1,4 @@
 (function(exports) {
-  console.log(1);
   function headlines() {
     this._api = '';
     this._headlines = [];
