@@ -1,11 +1,12 @@
 function loadAPI() {
   console.log(2);
   var xhttp = new XMLHttpRequest();
+
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
       headlines.recieveAPIrequest(this);
-      var headlinesDisplay = new headlinesDisplay(headlines._headlines);
-      document.getElementById("headlines").innerHTML = headlinesDisplay.displayPage;
+      var headlinesDisplay = new HeadlinesDisplay(headlines._headlines);
+      document.getElementById("headlines").innerHTML = headlinesDisplay.displayPage();
       console.log(headlines.getAPI());
       console.log("JSON parse");
       console.log(JSON.parse(this.responseText).response.results);
