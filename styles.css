@@ -1,0 +1,46 @@
+
+body {
+  background-color: #c2eded;
+}
+
+.header {
+  color: #0b5f68;
+}
+
+img {
+    border-radius: 8px;
+}
+span {
+  font-weight: bold;
+
+}
+
+.membership{
+
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    background:url(images/star-trek-spock1.jpg);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.image {
+   position: relative;
+   width: 100%; /* for IE 6 */
+}
+
+h2 {
+  color: #f44265;
+   position: absolute;
+   align: center
+   top: 75px;
+   left: 0;
+   width: 100%;
+}
